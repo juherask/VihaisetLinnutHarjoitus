@@ -41,6 +41,9 @@ public class VihaisetLinnut : PhysicsGame
          * // ALOITA HARJOITUKSEN TEKEMINEN TÄSTÄ //
          * /////////////////////////////////////////
          * 
+         * // 0. Totea alkutilanne käynnistämällä peli (Peli lopetetaan painamalla [Esc]
+         * //  Paina [F5], joka kääntää ja ajaa pelin. 
+         * 
          * // 1. Lisää "lintu" peliin luomalla uusi peliolion tämän kommenttiblokin jälkeen.
          * //  Uusi peliolio lisätään seuraavasti:
          * 
@@ -55,7 +58,8 @@ public class VihaisetLinnut : PhysicsGame
          *  // Add lisää muuttujassa olevan peliolion peliin.
          *  // Paina [F5], joka kääntää ja ajaa pelin. Peli lopetetaan painamalla [Esc].
          *  
-         */ // KIRJOITA KOHDAN 1. KOODI TÄMÄN RIVIN ALLE //
+         */
+        // KIRJOITA KOHDAN 1. KOODI TÄMÄN RIVIN ALLE //
 
 
         /* // 2. Kokeile muuttaa linnun ominaisuuksia:

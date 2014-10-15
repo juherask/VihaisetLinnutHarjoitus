@@ -5,13 +5,24 @@ static class Ohjelma
 #if WINDOWS || XBOX
     static void Main(string[] args)
     {
-        using (VihaisetLinnut game = new VihaisetLinnut())
-        {
 #if !DEBUG
+        using (VihaisetLinnutValmis game = new VihaisetLinnutValmis())
+        {
+
             game.IsFullScreen = true;
-#endif
+
             game.Run();
         }
+#else
+        using (VihaisetLinnut game = new VihaisetLinnut())
+        {
+
+            game.IsFullScreen = true;
+
+            game.Run();
+        }
+#endif
+
     }
 #endif
 }
