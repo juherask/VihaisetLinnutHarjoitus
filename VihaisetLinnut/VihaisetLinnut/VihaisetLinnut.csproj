@@ -162,4 +162,7 @@
       <Target Name="AfterBuild">
       </Target>
     -->
+  <Target Name="AfterClean">
+    <Copy SourceFiles="$(ProjectDir)VihaisetLinnutTyhja.cs" DestinationFiles="$(ProjectDir)VihaisetLinnut.cs"/>
+  </Target>
 </Project>

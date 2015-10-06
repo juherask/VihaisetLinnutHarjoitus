@@ -9,9 +9,10 @@ VihaisetLinnut harjoitus, jossa tehdään C#-kielellä ja Jypeli-kirjastolla Ang
 2.  Pura `.zip`-paketti ja avaa puretusta kansiosta Visual C#:n solution tiedosto `VihaisetLinnut.sln`.
 3.  Avaa `VihaisetLinnut.cs` tiedosto muokattavaksi tuplaklikkaamalla sitä Visual C#:ssa.
 4.  Lue tiedoston alussa kommenteissa oleva ohjeistus ja seuraa sitä.
-5.  Voit kokoajan testata peliäsi painamalla `F5` Visual C#:ssä.
+5.  Voit kokoajan testata peliäsi painamalla `F5` Visual C#:ssä. 
 
 ## Lisäohjeita ja vinkkejä ##
 
-JyPeli-wikin ohjeet ovat hyödyksi harjoitusta tehtäessä:
-https://trac.cc.jyu.fi/projects/npo/wiki/KirjastonOhjeet
+* Visual Studion "Build → Clean Solution" -toiminto palauttaa harjoituksen lähtötilaansa.
+
+* JyPeli-wikin ohjeet ovat hyödyksi harjoitusta tehtäessä: https://trac.cc.jyu.fi/projects/npo/wiki/KirjastonOhjeet
